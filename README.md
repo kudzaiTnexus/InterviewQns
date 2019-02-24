@@ -18,24 +18,24 @@ The third line contains an integer denoting x2.
 The fourth line contains an integer denoting y2.
  
 Constraints
-1 ≤ x1, y1, x2, y2 ≤ 1000
+*1 ≤ x1, y1, x2, y2 ≤ 1000*
  
-Output Format
-The function must return a string denoting whether or not the bot can reach point (x2, y2) from point (x1, y1). If it is possible, return Yes; otherwise, return No. This is printed to stdout by locked stub code in the editor.
+> Output Format
+> The function must return a string denoting whether or not the bot can reach point (x2, y2) from point (x1, y1). If it is possible, return Yes; otherwise, return No. This is printed to stdout by locked stub code in the editor.
  
-Sample Input 0
-1
-4
-5
-9
+##Sample Input 0
+##1
+##4
+##5
+##9
  
 Sample Output 0
 Yes
  
-Explanation 0
+**Explanation 0
 start = (1, 4), end = (5, 9)
 The bot starts at (1, 4) and makes a move of type 1, meaning that it moves to (1 + 4, 1) = (5, 4). Then it makes a move of type 2 from (5, 4) to (5, 5 + 4) = (5, 9).
-The bot successfully moved through the following path: (1, 4) → (5, 4) → (5, 9), which means it was possible to reach (5, 9). Thus, our function returns Yes.
+The bot successfully moved through the following path: (1, 4) → (5, 4) → (5, 9), which means it was possible to reach (5, 9). Thus, our function returns Yes.**
  
 Sample Input 1
 1
