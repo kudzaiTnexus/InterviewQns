@@ -6,9 +6,9 @@
 > From location (x, y) to location (x + y, y).
 > From location (x, y) to location (x, x + y).
  
-For example, if the bot starts at (1, 4), it can make the following sequence of moves: (1, 4) → (5, 4) → (5, 9) → (5, 14).
+_For example, if the bot starts at (1, 4), it can make the following sequence of moves: (1, 4) → (5, 4) → (5, 9) → (5, 14)._
  
-Complete the canReach function in the editor below. It has four integer parameters: x1, y1, x2, and y2. It must return the string Yes if it is possible for the bot to start at point (x1, y1) and reach point (x2, y2); otherwise, it must return the string No.
+> Complete the canReach function in the editor below. It has four integer parameters: x1, y1, x2, and y2. It must return the  string Yes if it is possible for the bot to start at point (x1, y1) and reach point (x2, y2); otherwise, it must return the string No.
  
 Input Format
 Locked stub code in the editor reads the following input from stdin and passes it to the function:
