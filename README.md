@@ -118,7 +118,7 @@ func canReach(x1: Int, y1: Int, x2: Int, y2:Int) -> String {
     
 }
 
-print(canReach(x1: 1, y1: 4, x2: 20, y2: 13))
+print(canReach(x1: 1, y1: 4, x2: 5, y2: 14))
 
 
 ```
