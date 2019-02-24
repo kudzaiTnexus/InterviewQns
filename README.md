@@ -23,33 +23,32 @@ Constraints
 > Output Format
 > The function must return a string denoting whether or not the bot can reach point (x2, y2) from point (x1, y1). If it is possible, return Yes; otherwise, return No. This is printed to stdout by locked stub code in the editor.
  
-##Sample Input 0
-##1
-##4
-##5
-##9
+ * Sample Input 0
+  * 1
+  * 4
+  * 5
+  * 9
  
 Sample Output 0
 Yes
  
-**Explanation 0
+_Explanation 0
 start = (1, 4), end = (5, 9)
 The bot starts at (1, 4) and makes a move of type 1, meaning that it moves to (1 + 4, 1) = (5, 4). Then it makes a move of type 2 from (5, 4) to (5, 5 + 4) = (5, 9).
-The bot successfully moved through the following path: (1, 4) → (5, 4) → (5, 9), which means it was possible to reach (5, 9). Thus, our function returns Yes.**
+The bot successfully moved through the following path: (1, 4) → (5, 4) → (5, 9), which means it was possible to reach (5, 9). Thus, our function returns Yes._
  
-Sample Input 1
-1
-2
-2
-1
+* __Sample Input 1__
+  * 1
+  * 2
+  * 2
+  * 1
  
-Sample Output 1
-No
+* __Sample Output 1__
+  * No
  
-Explanation 1
-start = (1, 2), end = (2, 1)
-Our two types of movement both require an increase in x or y, but the input value for y decreases from the start location to the end location. Thus, it is not possible to reach (2, 1) from (1, 2) and we return No.
--}
+*Explanation 1*
+> start = (1, 2), end = (2, 1)
+> Our two types of movement both require an increase in x or y, but the input value for y decreases from the start location to the end location. Thus, it is not possible to reach (2, 1) from (1, 2) and we return No.
 
 
 Bruteforce Solution using swift ( This solution doesnt scale very well )
