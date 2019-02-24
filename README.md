@@ -51,7 +51,7 @@ The bot successfully moved through the following path: (1, 4) → (5, 4) → (5,
 > Our two types of movement both require an increase in x or y, but the input value for y decreases from the start location to the end location. Thus, it is not possible to reach (2, 1) from (1, 2) and we return No.
 
 
-# Bruteforce Solution using swift ( This solution doesnt scale very well ) #
+## Bruteforce Solution using swift ( This solution doesnt scale very well ) ##
 
 
 ```
