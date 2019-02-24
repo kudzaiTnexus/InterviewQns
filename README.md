@@ -1,10 +1,10 @@
 # InterviewQns
 
 
-{-
-Jen coded a bot that takes a pair of integers coordinates, (x, y). Though the bot can move any number of times, it can only make the following two types of moves:
-From location (x, y) to location (x + y, y).
-From location (x, y) to location (x, x + y).
+
+> Jen coded a bot that takes a pair of integers coordinates, (x, y). Though the bot can move any number of times, it can only > make the following two types of moves:
+> From location (x, y) to location (x + y, y).
+> From location (x, y) to location (x, x + y).
  
 For example, if the bot starts at (1, 4), it can make the following sequence of moves: (1, 4) → (5, 4) → (5, 9) → (5, 14).
  
